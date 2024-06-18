@@ -6,3 +6,17 @@
     justify-content: space-evenly;
     height: auto;
 }
+.main-menu-bar{
+    display: flex;
+}
+.sub-menu{
+    display: flex;
+}
+.menu-container{
+    color: #fff;
+    padding: 30px;
+    background-color:#282828 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

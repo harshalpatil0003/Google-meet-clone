@@ -14,11 +14,11 @@ function Cards({ Image, Name }) {
                 <img src={Image} className='person-img' />
 
                 <span className='named-text'>{Name}</span>
-                <div className='menubar'>
+                {/* <div className='menubar'>
                     <ul>
                         <li></li>
                     </ul>
-                </div>
+                </div> */}
 
             </div>
         </>

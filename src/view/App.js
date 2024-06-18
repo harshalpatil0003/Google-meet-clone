@@ -1,7 +1,7 @@
-import bill from '../components/cards/person-img/bill.webp'
+
 import './App.css';
 import Cards from '../../src/components/cards/cards'
-
+import Menu from '../components/menu-bar/menu-bar'
 const App = () => {
   return (
     <>
@@ -35,9 +35,55 @@ const App = () => {
           Name="Larry Ellison"
           Image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqSAEzyTAvyMR2FHLRgFDv9CJ2Wa6xOE-CLQ&s"
         />
+        <Cards
+          Name="You"
+          Image="https://avatars.githubusercontent.com/u/117168808?v=4"
+        />
       </div>
+      <div className='menu-container'>
+        <div>4:51 PM | Wsd-jpxn-trikl</div>
+        <div className='main-menu-bar'>
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/25/25682.png"
+          />
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/1159/1159798.png"
+          />
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/1620/1620709.png"
+          />
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/9396/9396667.png"
+          />
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/3793/3793636.png"
+          />
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/2311/2311524.png"
+          />
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/733/733497.png "
+          />
 
-
+        </div>
+        <div className='sub-menu'>
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/9710/9710907.png "
+          />
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/10104/10104044.png"
+          />
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/3193/3193015.png "
+          />
+          <Menu
+            icon="https://help.lucid.co/hc/article_attachments/17916361414548"
+          />
+          <Menu
+            icon="https://cdn-icons-png.flaticon.com/128/7542/7542188.png"
+          />
+        </div>
+      </div>
     </>
 
   );
