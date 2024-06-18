@@ -1,0 +1,17 @@
+.card-container{
+    color: #ffffff;
+    position: relative;
+    margin: 20px;
+}
+.named-text{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size:20px ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.person-img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
