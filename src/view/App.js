@@ -1,11 +1,9 @@
-
 import './App.css';
 import Cards from '../../src/components/cards/cards'
 import Menu from '../components/menu-bar/menu-bar'
 const App = () => {
   return (
     <>
-
       <div className='container'>
         <Cards
           Name="Warren Buffet"
