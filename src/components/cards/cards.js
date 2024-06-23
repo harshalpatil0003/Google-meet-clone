@@ -11,7 +11,7 @@ function Cards({ Image, Name }) {
     return (
         <>
             <div className='card-container'>
-                <img src={Image} className='person-img' />
+                <img src={Image} alt='Image' className='person-img' />
 
                 <span className='named-text'>{Name}</span>
                 {/* <div className='menubar'>

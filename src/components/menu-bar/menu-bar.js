@@ -4,7 +4,7 @@ function Menu({icon}) {
         <>
            <div>
                 <div className='main-menu'>
-                    <img src={icon} className="icons"/>
+                    <img src={icon}  alt='icon' className="icons"/>
                 </div>
                 
            </div>
