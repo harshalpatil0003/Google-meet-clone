@@ -14,8 +14,9 @@ const router=createBrowserRouter([
     {
         path:"/",
         element:<App/>
-        
+
     },
+    
     {
         path:"*",
         element:<h1>404 Not Found</h1>
