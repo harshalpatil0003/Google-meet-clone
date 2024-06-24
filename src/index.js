@@ -7,7 +7,6 @@ import{
     createBrowserRouter
 }
 from 'react-router-dom';
-import bill from '../src/components/cards/person-img/bill.webp'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router=createBrowserRouter([
